@@ -1,0 +1,16 @@
+# Local .terraform directory (Terraform plugin data)
+.terraform/
+
+# Terraform state files (contain sensitive data like IPs, ARNs, etc.)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Lock file (optional to ignore, but safe to include in team projects)
+.terraform.lock.hcl
+
+# Shell scripts outputs or temporary files (optional)
+*.log
+
+# AWS credentials or environment files (if used)
+.env
+*.tfvars
